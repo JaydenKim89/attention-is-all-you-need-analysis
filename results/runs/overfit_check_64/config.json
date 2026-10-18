@@ -1,0 +1,31 @@
+{
+  "name": "baseline",
+  "data_dir": "data/reversal_v1",
+  "model": {
+    "vocab_size": 11,
+    "d_model": 64,
+    "n_heads": 4,
+    "d_ff": 256,
+    "n_enc_layers": 2,
+    "n_dec_layers": 2,
+    "dropout": 0.1,
+    "max_len": 64,
+    "enc_pos": true,
+    "dec_pos": true
+  },
+  "optim": {
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "eps": 1e-09,
+    "warmup_steps": 400,
+    "lr_scale": 1.0
+  },
+  "train": {
+    "steps": 600,
+    "batch_size": 128,
+    "eval_every": 250,
+    "grad_clip": null
+  }
+}

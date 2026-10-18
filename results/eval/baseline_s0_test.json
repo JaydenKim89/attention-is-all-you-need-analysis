@@ -1,0 +1,179 @@
+{
+  "run": "baseline_s0",
+  "split": "test",
+  "loss": 0.0021452641583533144,
+  "token_acc": 0.9995598591549296,
+  "n_tokens": 9088,
+  "exact_acc": 0.996,
+  "eos_rate": 1.0,
+  "length_match_rate": 0.996,
+  "multiset_match_rate": 0.996,
+  "groups_both_correct": 496,
+  "groups_one_correct": 4,
+  "n_groups": 500,
+  "by_length": {
+    "4": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 104
+    },
+    "5": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 88
+    },
+    "6": {
+      "exact_acc": 0.96875,
+      "multiset_acc": 0.96875,
+      "n": 128
+    },
+    "7": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 98
+    },
+    "8": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 116
+    },
+    "9": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 128
+    },
+    "10": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 124
+    },
+    "11": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 110
+    },
+    "12": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 104
+    }
+  },
+  "failures": [
+    {
+      "id": "test-00268",
+      "src": [
+        6,
+        6,
+        10,
+        10,
+        9,
+        3
+      ],
+      "tgt": [
+        3,
+        9,
+        10,
+        10,
+        6,
+        6
+      ],
+      "pred": [
+        3,
+        3,
+        9,
+        10,
+        10,
+        6,
+        6
+      ],
+      "emitted_eos": true
+    },
+    {
+      "id": "test-00275",
+      "src": [
+        7,
+        6,
+        8,
+        4,
+        3,
+        3
+      ],
+      "tgt": [
+        3,
+        3,
+        4,
+        8,
+        6,
+        7
+      ],
+      "pred": [
+        3,
+        3,
+        3,
+        4,
+        8,
+        6,
+        7
+      ],
+      "emitted_eos": true
+    },
+    {
+      "id": "test-00465",
+      "src": [
+        6,
+        10,
+        4,
+        5,
+        4,
+        3
+      ],
+      "tgt": [
+        3,
+        4,
+        5,
+        4,
+        10,
+        6
+      ],
+      "pred": [
+        3,
+        3,
+        4,
+        5,
+        4,
+        10,
+        6
+      ],
+      "emitted_eos": true
+    },
+    {
+      "id": "test-00575",
+      "src": [
+        6,
+        10,
+        10,
+        4,
+        5,
+        5
+      ],
+      "tgt": [
+        5,
+        5,
+        4,
+        10,
+        10,
+        6
+      ],
+      "pred": [
+        5,
+        5,
+        5,
+        4,
+        10,
+        10,
+        6
+      ],
+      "emitted_eos": true
+    }
+  ]
+}

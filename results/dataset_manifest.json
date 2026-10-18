@@ -1,0 +1,86 @@
+{
+  "generator": "src/data.py",
+  "config": {
+    "seed": 1234,
+    "n_symbols": 8,
+    "group_size": 2,
+    "train_groups": 4000,
+    "dev_groups": 500,
+    "test_groups": 500,
+    "length_range": [
+      4,
+      12
+    ],
+    "long_test_groups": 250,
+    "long_length_range": [
+      13,
+      16
+    ]
+  },
+  "files": {
+    "train": {
+      "examples": 8000,
+      "sha256": "6db1dd7ea5a7344e1c06f735096bf723114415e3fa812f66806dcb4a036fe72c",
+      "lengths": {
+        "4": 902,
+        "5": 920,
+        "6": 874,
+        "7": 926,
+        "8": 910,
+        "9": 860,
+        "10": 850,
+        "11": 886,
+        "12": 872
+      }
+    },
+    "dev": {
+      "examples": 1000,
+      "sha256": "e46b7cd757b1ef0c3a14d93ab8d36798a0318d0dc52e51c57fb91870daa02327",
+      "lengths": {
+        "4": 130,
+        "5": 92,
+        "6": 118,
+        "7": 114,
+        "8": 132,
+        "9": 96,
+        "10": 100,
+        "11": 124,
+        "12": 94
+      }
+    },
+    "test": {
+      "examples": 1000,
+      "sha256": "3410f2fa51e5fd86b51314a344b40520b830bdb9b277efe3a9e57f6a2484fdfa",
+      "lengths": {
+        "4": 104,
+        "5": 88,
+        "6": 128,
+        "7": 98,
+        "8": 116,
+        "9": 128,
+        "10": 124,
+        "11": 110,
+        "12": 104
+      }
+    },
+    "test_long": {
+      "examples": 500,
+      "sha256": "a6d94f24cf8952392b5a3bbd78dec666471e32a12cdab25f7b046ee25a95d01b",
+      "lengths": {
+        "13": 116,
+        "14": 118,
+        "15": 116,
+        "16": 150
+      }
+    }
+  },
+  "vocab": {
+    "PAD": 0,
+    "BOS": 1,
+    "EOS": 2,
+    "symbols": [
+      3,
+      10
+    ]
+  }
+}

@@ -1,4 +1,4 @@
-# # Problem and Motivation
+# Problem and Motivation
 
 ## Research Question
 

@@ -1,0 +1,6 @@
+# Versions actually used for the recorded runs (Python 3.14.5, Windows 11).
+# The PyTorch build was 2.14.1+cu130 (CUDA 13.0) on an RTX 5070 Ti; any build of
+# the same version should run the code, but GPU results may differ in the last digits.
+numpy==2.5.3
+torch==2.14.1
+matplotlib==3.11.2

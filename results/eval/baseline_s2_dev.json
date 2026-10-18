@@ -1,0 +1,62 @@
+{
+  "run": "baseline_s2",
+  "split": "dev",
+  "loss": 0.0003404110351654959,
+  "token_acc": 1.0,
+  "n_tokens": 8898,
+  "exact_acc": 1.0,
+  "eos_rate": 1.0,
+  "length_match_rate": 1.0,
+  "multiset_match_rate": 1.0,
+  "groups_both_correct": 500,
+  "groups_one_correct": 0,
+  "n_groups": 500,
+  "by_length": {
+    "4": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 130
+    },
+    "5": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 92
+    },
+    "6": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 118
+    },
+    "7": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 114
+    },
+    "8": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 132
+    },
+    "9": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 96
+    },
+    "10": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 100
+    },
+    "11": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 124
+    },
+    "12": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 94
+    }
+  },
+  "failures": []
+}

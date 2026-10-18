@@ -1,0 +1,109 @@
+{
+  "run": "baseline_s1",
+  "split": "test",
+  "loss": 0.000427935360586533,
+  "token_acc": 0.9998899647887324,
+  "n_tokens": 9088,
+  "exact_acc": 0.999,
+  "eos_rate": 1.0,
+  "length_match_rate": 1.0,
+  "multiset_match_rate": 0.999,
+  "groups_both_correct": 499,
+  "groups_one_correct": 1,
+  "n_groups": 500,
+  "by_length": {
+    "4": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 104
+    },
+    "5": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 88
+    },
+    "6": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 128
+    },
+    "7": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 98
+    },
+    "8": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 116
+    },
+    "9": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 128
+    },
+    "10": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 124
+    },
+    "11": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 110
+    },
+    "12": {
+      "exact_acc": 0.9903846153846154,
+      "multiset_acc": 0.9903846153846154,
+      "n": 104
+    }
+  },
+  "failures": [
+    {
+      "id": "test-00002",
+      "src": [
+        3,
+        10,
+        10,
+        9,
+        9,
+        8,
+        7,
+        7,
+        8,
+        3,
+        5,
+        8
+      ],
+      "tgt": [
+        8,
+        5,
+        3,
+        8,
+        7,
+        7,
+        8,
+        9,
+        9,
+        10,
+        10,
+        3
+      ],
+      "pred": [
+        8,
+        5,
+        3,
+        8,
+        7,
+        7,
+        8,
+        9,
+        9,
+        10,
+        10,
+        10
+      ],
+      "emitted_eos": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "no_enc_pos_s1",
+  "seed": 1,
+  "subset": 0,
+  "eval_split": "dev",
+  "parameters": 232640,
+  "precision": "float32 (TF32 disabled)",
+  "train_seconds": 37.4,
+  "final_eval": {
+    "loss": 0.998720451429148,
+    "token_acc": 0.5275342773657001,
+    "n_tokens": 8898,
+    "exact_acc": 0.01,
+    "eos_rate": 1.0,
+    "length_match_rate": 0.964,
+    "multiset_match_rate": 0.964,
+    "groups_both_correct": 0,
+    "groups_one_correct": 10,
+    "n_groups": 500
+  },
+  "dataset_manifest": "results/dataset_manifest.json",
+  "provenance": {
+    "git_commit": "ad92f86c0e5047cea25fcc49125cb6dbda36908f",
+    "git_dirty": true,
+    "source_sha256": "e675cd4bb77933cf6e0c82bc19efedd29bb3983914609cb19d0b18b19d061e49",
+    "python": "3.14.5",
+    "torch": "2.14.1+cu130",
+    "cuda": "13.0",
+    "device": "NVIDIA GeForce RTX 5070 Ti",
+    "platform": "Windows-11-10.0.26300-SP0"
+  }
+}

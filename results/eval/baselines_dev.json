@@ -1,0 +1,16 @@
+{
+  "copy": {
+    "token_acc": 0.26253090582153293,
+    "exact_acc": 0.004
+  },
+  "unigram": {
+    "token": 3,
+    "token_acc": 0.10766464374016634,
+    "exact_acc": 0.0
+  },
+  "n_tokens": 8898,
+  "multiset_oracle": {
+    "loss": 0.9498510076299859,
+    "expected_token_acc": 0.5380112170739271
+  }
+}

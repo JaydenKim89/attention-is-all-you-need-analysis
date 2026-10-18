@@ -19,3 +19,7 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Generated data and model checkpoints (regenerate with scripts/reproduce.sh)
+data/
+checkpoints/

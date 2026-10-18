@@ -1,0 +1,139 @@
+{
+  "run": "baseline_s1",
+  "split": "dev",
+  "loss": 0.0009341945415927391,
+  "token_acc": 0.9997752303888514,
+  "n_tokens": 8898,
+  "exact_acc": 0.998,
+  "eos_rate": 1.0,
+  "length_match_rate": 0.998,
+  "multiset_match_rate": 0.998,
+  "groups_both_correct": 498,
+  "groups_one_correct": 2,
+  "n_groups": 500,
+  "by_length": {
+    "4": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 130
+    },
+    "5": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 92
+    },
+    "6": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 118
+    },
+    "7": {
+      "exact_acc": 0.9912280701754386,
+      "multiset_acc": 0.9912280701754386,
+      "n": 114
+    },
+    "8": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 132
+    },
+    "9": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 96
+    },
+    "10": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 100
+    },
+    "11": {
+      "exact_acc": 0.9919354838709677,
+      "multiset_acc": 0.9919354838709677,
+      "n": 124
+    },
+    "12": {
+      "exact_acc": 1.0,
+      "multiset_acc": 1.0,
+      "n": 94
+    }
+  },
+  "failures": [
+    {
+      "id": "dev-00172",
+      "src": [
+        4,
+        4,
+        4,
+        4,
+        10,
+        10,
+        10
+      ],
+      "tgt": [
+        10,
+        10,
+        10,
+        4,
+        4,
+        4,
+        4
+      ],
+      "pred": [
+        10,
+        10,
+        10,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "emitted_eos": true
+    },
+    {
+      "id": "dev-00399",
+      "src": [
+        3,
+        3,
+        3,
+        4,
+        7,
+        5,
+        4,
+        4,
+        9,
+        6,
+        7
+      ],
+      "tgt": [
+        7,
+        6,
+        9,
+        4,
+        4,
+        5,
+        7,
+        4,
+        3,
+        3,
+        3
+      ],
+      "pred": [
+        7,
+        6,
+        9,
+        4,
+        4,
+        5,
+        7,
+        4,
+        3,
+        3,
+        3,
+        3
+      ],
+      "emitted_eos": true
+    }
+  ]
+}
